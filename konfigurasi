@@ -1,0 +1,7 @@
+cp -r db.192 /etc/bind/db.192
+cp -r db.murid /etc/bind/db.murid
+cp -r interface /etc/network/interfaces
+cp -r named.conf.lcl /etc/bind/named.conf.local
+cp -r apache /etc/apache2/sites-avaible/murid.sekolah.sch.id
+cp -r sshd_conf /etc/ssh/sshd_conf
+cp -r www-data /var
