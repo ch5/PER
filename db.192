@@ -1,0 +1,13 @@
+;
+; BIND reverse data file for broadcast zone
+;
+$TTL	604800
+@	IN	SOA	murid.sekolah.sch.id. root.murid.sekolah.sch.id. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	murid.sekolah.sch.id.
+1	IN	PTR	murid.sekolah.sch.id.
