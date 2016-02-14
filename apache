@@ -1,7 +1,7 @@
 <VirtualHost *:80>
 	ServerAdmin webmaster@murid.sekolah.sch.id
 	ServerName www.murid.sekolah.sch.id
-	ServerAlias murid.sekolah.web.id
+	ServerAlias murid.sekolah.sch.id
 
 	DocumentRoot /var/www-data
 	<Directory />

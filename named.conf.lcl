@@ -6,12 +6,12 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
-zone "murid.sekolah.web.id" {
+zone "murid.sekolah.sch.id" {
 	type master;
 	file "/etc/bind/db.murid";
 };
 
-zone "100.168.192.in-addr.arpa" {
+zone "1.168.192.in-addr.arpa" {
 	type master;
 	file "/etc/bind/db.192";
 };
