@@ -1,0 +1,9 @@
+apt-get install bind9 
+apt-get install apache2
+apt-get install phpmyadmin
+nano /etc/network/interfaces
+nano /etc/bind/named.conf.local
+nano /etc/bind/db.192
+nano /etc/bind/db.murid
+a2dissite default
+/etc/init.d/apache2 reload
