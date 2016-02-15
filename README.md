@@ -1,5 +1,5 @@
 # PER
-apt-get install git apache2 mysql-server ssh phpmyadmin
+apt-get install git apache2 mysql-server ssh phpmyadmin vim
 cd PER
 ./konfigurasi
 vim /etc/bind/named.conf.local
