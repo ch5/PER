@@ -11,7 +11,7 @@ zone "murid.sekolah.sch.id" {
 	file "/etc/bind/db.murid";
 };
 
-zone "1.168.192.in-addr.arpa" {
+zone "10.168.192.in-addr.arpa" {
 	type master;
 	file "/etc/bind/db.192";
 };
